@@ -1,0 +1,48 @@
+{
+  "name": "outlook-app",
+  "productName": "Outlook",
+  "version": "1.0.0",
+  "description": "A desktop application for Outlook",
+  "author": "jbaptistetrb <jbaptistetrb@users.noreply.github.com> (https://github.com/jbaptistetrb)",
+  "homepage": "https://github.com/jbaptistetrb/outlook-app",
+  "license": "MIT",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo 'no tests implemented'",
+    "dist": "electron-builder --macos --linux --windows --publish never"
+  },
+  "devDependencies": {
+    "electron": "*",
+    "electron-builder": "*"
+  },
+  "build": {
+    "artifactName": "${name}-${version}-${os}.${ext}",
+    "files": [
+      "**/*",
+      "build/**/*"
+    ],
+    "appId": "jbaptistetrb.outlook-app",
+    "mac": {
+      "category": "public.app-category.productivity",
+      "darkModeSupport": false
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb",
+        "rpm",
+        "pacman",
+        "snap",
+        "tar.bz2"
+      ],
+      "category": "Network;Office"
+    },
+    "win": {
+      "verifyUpdateCodeSignature": false,
+      "target": [
+        "nsis",
+        "zip"
+      ]
+    }
+  }
+}
