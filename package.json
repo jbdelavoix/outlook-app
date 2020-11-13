@@ -1,7 +1,7 @@
 {
   "name": "outlook-app",
   "productName": "Outlook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A desktop application for Outlook",
   "author": "jbaptistetrb <jbaptistetrb@users.noreply.github.com> (https://github.com/jbaptistetrb)",
   "homepage": "https://github.com/jbaptistetrb/outlook-app",
