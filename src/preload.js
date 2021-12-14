@@ -12,7 +12,7 @@ function getUnreadCount() {
   )
 
   if (navigation) {
-    let label = navigation.parentElement.querySelector(
+    let label = navigation.parentElement.parentElement.querySelector(
       "span:last-of-type span"
     )
     // Return the unread count (0 by default)

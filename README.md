@@ -11,8 +11,8 @@
 
 ## Download
 
-Please find latest releases for Windows, MacOs and Linux on the following [release page](https://github.com/jbaptistetrb/outlook-app/releases/latest)
+Please find latest releases for Windows, MacOs and Linux on the following [release page](https://github.com/jbdelavoix/outlook-app/releases/latest)
 
 ## Maintainers
 
-- [jbaptistetrb](https://github.com/jbaptistetrb)
+- [jbdelavoix](https://github.com/jbdelavoix)
